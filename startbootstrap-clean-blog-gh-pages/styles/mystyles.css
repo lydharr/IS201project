@@ -1,0 +1,112 @@
+p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.verticalhorizontal {
+    display: table-cell;
+    height: 50px;
+    text-align: center;
+    width: 50px;
+    vertical-align: middle;
+}
+
+.contactinfo {
+    font-family:cursive;
+    text-align: center;
+    color: rgb(255, 125, 38);
+    font-family: 'Abril Fatface', cursive;
+}
+
+.contactbelow {
+    font-family:cursive;
+    text-align: center;
+    color: indianred;
+    font-weight: lighter;
+    font-family: 'Abril Fatface', cursive;
+}
+
+.home {
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    font-weight: lighter;
+    font-size: 20px;}
+
+.resume {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: double;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.homeresume {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: double;
+    font-style: italic;
+    color: antiquewhite;
+   text-decoration-color: blanchedalmond;
+    font-weight: lighter;
+}
+
+.listitems {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: lighter;
+
+}
+.bold {
+    font-weight: bold;
+}
+
+.light {
+    font-weight: lighter;
+}
+
+.homeimages {
+    width: 50%;
+    image-rendering: crisp-edges;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.body {
+    background-color: rgb(255, 196, 196);
+}
+
+.firstfont { font-family: 'Playfair Display SC', serif;}
+.rockfont {font-family: 'Rock 3D', cursive;}
+.contactfont {font-family: 'Abril Fatface', cursive;}
+
+
+.center {text-align: center;}
+
+.aboutcolor {
+    background-color: rgb(255, 248, 205);
+}
+
+.footerstyle {
+    font-size: 20px;
+    font-family: 'Playfair Display SC', serif;
+    text-align: center;
+}
+
+.below { font-size: 15px;
+    font-family: 'Playfair Display SC', serif;
+    color: rgb(87, 87, 87);
+    text-align: center;}
+
+body {
+    background-color:rgb(241, 233, 229);
+}
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+    width: 50%;
+    padding: 5px;
+    text-align: center;
+  }
+  
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
